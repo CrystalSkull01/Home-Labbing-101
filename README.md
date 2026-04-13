@@ -18,6 +18,8 @@ This tutorial will walk you through how to make the simplest form of a home serv
  and easy to use for general purposes. Ubuntu LTS is a headless OS hence a great learning opportunity to learn Linux basics.
 [More about server OS](https://www.geeksforgeeks.org/operating-systems/what-is-a-server-os/) 
 
+---
+
 # Step 2: Setting up the NAS (Network Access)
 Creating a NAS is not strictly required but its way easier to access and manage your storage.
 
