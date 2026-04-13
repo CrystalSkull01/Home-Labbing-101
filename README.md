@@ -78,6 +78,7 @@ sudo systemctl restart smbd
 3. In the top menu bar, click **Map network drive** (you might need to click the three dots `...` to find it).
 4. **Drive Letter:** Choose any letter (e.g., **Z:**).
 5. To find your IP address use
+6. 
    ``` bash
    ifconfig 
 7. **Folder:** Type your server path: `\\192.168.1.XX\MyNAS` 
