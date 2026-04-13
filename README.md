@@ -85,10 +85,7 @@ sudo systemctl restart smbd
    ``` bash
    ifconfig 
 7. **Folder:** Type your server path: `\\192.168.1.XX\MyNAS` 
-8. Make sure **"Reconnect at sign-in"** is checked.
-
- ![map network02](./assets/map_network02.png)
- 
+8. Make sure **"Reconnect at sign-in"** is checked.s
 10. Click **Finish**.
 
 > [!TIP]
