@@ -14,11 +14,5 @@ This tutorial will walk you through how to make a simplest form of a home server
 - Basic hardware knowledge 
 
 ## Step 1: Install OS
-1. Download Ubuntu Server
-2. Create a bootable USB
-3. Install the OS
-
-## Step 2: Configure Network
-- Set static IP
-- Test connection
-
+ There are many server OS s to choose from. I recommend you to use Ubuntu beacause Ubunutu server LTS is beginner friendly
+ and easy to use for genaral purposes. ubuntu LTS is a headless OS hence a great learning oppotunity to learn linux basics.
