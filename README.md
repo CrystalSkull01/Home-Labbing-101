@@ -60,7 +60,7 @@ your SMB configuration shold look like this
 
 ![Samba config](./assets/samba_Config.png)
 
-## 2. set credentials for NAS
+## 2. Set credentials for NAS
 
 ```bash
 sudo smbpasswd -a YOUR_USERNAME
