@@ -68,7 +68,7 @@ sudo systemctl restart smbd
 
 ## 3. Ways to access your NAS
 
-###   1. Mapping the NAS in windows
+### 1. Mapping the NAS in windows
 
   To make your server easy to use, we will map it as a "Network Drive." This makes it appear right next to your "C:" drive in File Explorer.
 
@@ -91,6 +91,23 @@ sudo systemctl restart smbd
 > [!TIP]
 > If it asks for credentials, use the username and the **Samba password** you created in Phase 3.
 
+### 2. Remote access with SSh protocol
 
+Since this is a server, we don't want to use the laptop's keyboard. We can access the server remotely from 
+any machine within the network using **SSH**.
+SSH (Secure Shell) allows you to control your laptop server's terminal from any other computer on your network.
 
+### Instructions
+
+1. Open the terminal on your server and type the following commands
+
+   ```bash
+   sudo apt update && sudo apt install openssh-server -y
+   ```
+
+2. Check if it's running
+
+   ``` bash
+   sudo systemctl status ssh
+   ```
 
