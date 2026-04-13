@@ -114,7 +114,6 @@ SSH (Secure Shell) allows you to control your laptop server's terminal from any 
 
     ![ssh](./assets/ssh.png)
    
-4. Usage
-   ### From your Windows PowerShell or Mac Terminal, type:
+4. From your Windows PowerShell or Mac Terminal, type:
 ```bash
 ssh username@192.168.1.XX
