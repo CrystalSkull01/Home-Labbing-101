@@ -33,7 +33,7 @@ Find the following lines and remove the comments and change accordingly.
 
 Your Terminal should look like this after step 2.
 
-![Lid Switch Config](./assets/Lid%20switch%20config.png)
+![Lid Switch Config](../assets/Lid%20switch%20config.png)
 
 Then Save and Exit.
 
