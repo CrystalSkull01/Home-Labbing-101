@@ -56,6 +56,6 @@ paste the following code block at the end of the file.
   writeable=yes
   public=no
 ```
-your SMB configuration shold look like following
+your SMB configuration shold look like this
 
 ![Samba config](./assets/samba_Config.png)
