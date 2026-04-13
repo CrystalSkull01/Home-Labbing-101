@@ -60,7 +60,7 @@ Find the following lines and remove the comments and change accordingly.
 
 Your Terminal should look like this after step 2.
 
-![Lid Switch Config](../assets/Lid%20switch%20config.png)
+![Lid Switch Config](./assets/Lid%20switch%20config.png)
 
 Then Save and Exit.
 
@@ -105,7 +105,7 @@ paste the following code block at the end of the file.
 ```
 your SMB configuration shold look like this
 
-![Samba config](../assets/samba_Config.png)
+![Samba config](./assets/samba_Config.png)
 
 ## 2. Set credentials for NAS
 
@@ -125,7 +125,7 @@ sudo systemctl restart smbd
 2. Click on **This PC** in the left sidebar.
 3. In the top menu bar, click **Map network drive** (you might need to click the three dots `...` to find it).
    
-   ![Windows map](../assets/map_network.png)
+   ![Windows map](./assets/map_network.png)
    
 5. **Drive Letter:** Choose any letter (e.g., **Z:**).
 6. To find your IP address use
@@ -160,7 +160,7 @@ SSH (Secure Shell) allows you to control your laptop server's terminal from any 
    ```
    your terminal should look like this if its running.
 
-    ![ssh](../assets/ssh.png)
+    ![ssh](./assets/ssh.png)
    
 4. From your Windows PowerShell or Mac Terminal, type:
 ```bash
@@ -171,7 +171,7 @@ ssh username@192.168.1.XX
 
 ## Step 3 : Setting up a Dashboard for the Server
 
-  ![Casa_Os](../assets/casa_OS02.png)
+  ![Casa_Os](./assets/casa_OS02.png)
 
 ## Instructions
 1. Go to [This](https://casaos.zimaspace.com/) website and copy the command
@@ -181,4 +181,22 @@ To access the Dashboard Type your server's IP Address in the browser.
 you will get a sign up screen this is a one time sign up.
 
 ---
+
+# Setting up Jellyfin Media Server
+Jellyfin is a free, open-source media system that lets you stream all your movies and TV shows from your laptop server to any device (Phone, TV, or Tablet).
+
+## 1. Install Jellyfin
+The easiest way to install Jellyfin on Ubuntu is using their official repository script. Run this via SSH:
+
+```bash
+curl [https://repo.jellyfin.org/install-deb.sh](https://repo.jellyfin.org/install-deb.sh) | sudo bash
+```
+** Since we have setup Casa OS you can download jellyfin from the Casa OS appstore
+
+## Instructions
+1. Click the jellyfin icon on casa OS and make an account.
+2. Add your movies Folder to the jellyfin media library
+
+you're now a Proud owner of a Media Server !
+
 
