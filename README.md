@@ -69,4 +69,25 @@ sudo systemctl restart smbd
 
 ### Ways to access your NAS
 
+### 1.Mapping the NAS in windows
+
+## 📁 Step 8: Mapping the NAS in Windows
+To make your server easy to use, we will map it as a "Network Drive." This makes it appear right next to your "C:" drive in File Explorer.
+
+### Instructions:
+1. Open **File Explorer** on your Windows PC.
+2. Click on **This PC** in the left sidebar.
+3. In the top menu bar, click **Map network drive** (you might need to click the three dots `...` to find it).
+4. **Drive Letter:** Choose any letter (e.g., **Z:**).
+5. **Folder:** Type your server path: `\\192.168.1.XX\MyNAS`
+6. Make sure **"Reconnect at sign-in"** is checked.
+7. Click **Finish**.
+
+> [!TIP]
+> If it asks for credentials, use the username and the **Samba password** you created in Phase 3.
+
+![Windows Map Drive Guide](./assets/samba_Config.png)
+*(Note: Use your screenshot here to show the successful connection!)*
+
+
 
