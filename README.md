@@ -123,7 +123,14 @@ ssh username@192.168.1.XX
 
 # Step 3 : Setting up a Dashboard for the Server
 
-##Instructions
+  ![Casa_Os](./assets/casa_OS02.png)
+
+## Instructions
 1. Go to [This](https://casaos.zimaspace.com/) website and copy the command
+2. paste the command in your server terminal and run it
+
+To access the Dashboard Type your server's IP Address in the browser.
+you will get a sign up screen this is a one time sign up.
+
 
 
