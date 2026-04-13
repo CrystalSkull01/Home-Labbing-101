@@ -25,3 +25,9 @@ Find the following lines and remove the comments and change accordingly.
 * HandleLidSwitchExternalPower=ignore
 * HandleLidSwitchDocked=ignore
 * LidSwitchIgnoreInhibited=no
+
+Your Terminal should look like this after step 2.
+
+![Lid Switch Config](./assets/Lid%20switch%20config.png)
+
+---
