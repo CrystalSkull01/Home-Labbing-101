@@ -87,7 +87,7 @@ sudo systemctl restart smbd
 7. **Folder:** Type your server path: `\\192.168.1.XX\MyNAS` 
 8. Make sure **"Reconnect at sign-in"** is checked.
 
- ![map network02](./assets/mao_network02.png)
+ ![map network02](./assets/map_network02.png)
  
 10. Click **Finish**.
 
