@@ -69,9 +69,9 @@ sudo systemctl restart smbd
 
 ## 3. Ways to access your NAS
 
-### 1.Mapping the NAS in windows
+### 1. Mapping the NAS in windows
 
-To make your server easy to use, we will map it as a "Network Drive." This makes it appear right next to your "C:" drive in File Explorer.
+  To make your server easy to use, we will map it as a "Network Drive." This makes it appear right next to your "C:" drive in File Explorer.
 
  ### Instructions:
 1. Open **File Explorer** on your Windows PC.
