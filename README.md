@@ -117,3 +117,13 @@ SSH (Secure Shell) allows you to control your laptop server's terminal from any 
 4. From your Windows PowerShell or Mac Terminal, type:
 ```bash
 ssh username@192.168.1.XX
+```
+
+---
+
+# Step 3 : Setting up a Dashboard for the Server
+
+##Instructions
+1. Go to [This](https://casaos.zimaspace.com/) website and copy the command
+
+
