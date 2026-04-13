@@ -110,4 +110,8 @@ SSH (Secure Shell) allows you to control your laptop server's terminal from any 
    ``` bash
    sudo systemctl status ssh
    ```
+   your terminal should look like this if its running.
+
+    ![ssh](./assets/ssh.png)
+   
 
