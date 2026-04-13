@@ -20,4 +20,8 @@ By default, a laptop sleeps when closed. To make it a server, laptop must functi
 ```bash
 sudo nano /etc/systemd/logind.conf
 ```
-
+Find the following lines and remove the comments and change accordingly.
+* **HandleLidSwitch=suspend
+* **HandleLidSwitchExternalPower=ignore
+* **HandleLidSwitchDocked=ignore
+* **LidSwitchIgnoreInhibited=no
