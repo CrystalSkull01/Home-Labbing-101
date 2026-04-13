@@ -6,3 +6,11 @@ The easiest way to install Jellyfin on Ubuntu is using their official repository
 
 ```bash
 curl [https://repo.jellyfin.org/install-deb.sh](https://repo.jellyfin.org/install-deb.sh) | sudo bash
+```
+** Since we have setup Casa OS you can download jellyfin from the Casa OS appstore
+
+## Instructions
+1. Click the jellyfin icon on casa OS and make an account.
+2. Add your movies Folder to the jellyfin media library
+
+you're now a Proud owner of a Media Server !
