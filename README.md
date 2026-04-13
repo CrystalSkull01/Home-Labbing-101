@@ -86,7 +86,10 @@ sudo systemctl restart smbd
    ifconfig 
 7. **Folder:** Type your server path: `\\192.168.1.XX\MyNAS` 
 8. Make sure **"Reconnect at sign-in"** is checked.
-9. Click **Finish**.
+
+ ![map network02](./assets/mao_network02.png)
+ 
+10. Click **Finish**.
 
 > [!TIP]
 > If it asks for credentials, use the username and the **Samba password** you created in Phase 3.
