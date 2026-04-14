@@ -234,6 +234,6 @@ if you are in the same network as the server. All your media is shared via LAN c
     3. Reverse Proxy + Domain Name
     4. Cloud Tunnel
        
-- In this tutorial i will how do do this with a **CLOUD TUNNEL***
+- In this tutorial i will how do do this with a **Cloud tunnel**
   
 
