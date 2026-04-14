@@ -139,7 +139,7 @@ sudo systemctl restart smbd
 > [!TIP]
 > If it asks for credentials, use the username and the **Samba password** you created in Phase 3.
 
-## 2. Remote access with SSh protocol
+### 2. Remote access with SSh protocol
 
 Since this is a server, we don't want to use the laptop's keyboard. We can access the server remotely from 
 any machine within the network using **SSH**.
