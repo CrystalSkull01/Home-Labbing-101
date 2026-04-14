@@ -219,12 +219,14 @@ you're now a Proud owner of a Media Server !
 # Accessing the Media server outside your Network
 
 To access your jellyfin server from another network first you need to understand 
-How your server acts within your provate network.
+How your server acts within your private network.
 
 Up until now we have kept our server inside our private network. You can only access your jellyfin server
 if you are in the same network as the server. All your media is shared via LAN connection.
 
- ![LAN diagram](./Diagrams/LAN_network.png)
+<p align="center">
+  <img src="./Diagrams/LAN_network.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="50%" />
+</p>
  
 - In order to access the jellyfin server from another network we need to make road from
   internet to out home network.
