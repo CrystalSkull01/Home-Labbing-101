@@ -225,6 +225,6 @@ Up until now we have kept our server inside our private network. You can only ac
 if you are in the same network as the server. All your media is shared via LAN connection.
 
 <p align="center">
-  <img src="./assets/image_14.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="50%" />
+  <img src="./Diagrams/LAN_network.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="50%" />
 </p>
 
