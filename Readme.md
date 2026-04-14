@@ -250,7 +250,7 @@ There are few ways to do this.
 
 # Cloudflare Tunnel
 
-- Cloud flare Tunnels acts as a secured connection between your proavate network and the global network.
+- Cloud flare Tunnels acts as a secured connection between your private network and the global network.
 - Cloudflare tunnel builds a outbound connection eliminating the need to open ports or port forwarding.
 - In order to implement a Cloud tunnel you need to buy a Domain.
 - Cloudflare also allows you to buy Domains.
