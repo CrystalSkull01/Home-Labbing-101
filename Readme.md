@@ -218,7 +218,7 @@ you're now a Proud owner of a Media Server !
 ---
 # Accessing the Media server outside your Network
 
-To access your jellyfin server from another network first you need to understand 
+- To access your jellyfin server from another network first you need to understand 
   How your server acts within your provate network.
 
 - Up until now we have kept our server inside our private network. You can only access your jellyfin server
