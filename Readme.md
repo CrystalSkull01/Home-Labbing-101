@@ -229,7 +229,7 @@ if you are in the same network as the server. All your media is shared via LAN c
 </p>
  
 - In order to access the jellyfin server from another network we need to make a connection from
-  internet to out home network.
+  Global network to our home network.
   
 There are few ways to do this.
 
