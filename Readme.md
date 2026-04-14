@@ -200,6 +200,7 @@ Since we have setup Casa OS you can download jellyfin from the Casa OS appstore
 ![Jellyfin](./assets/jelllyfin.png)
    
 4. To access Open your browser and type
+   
    ```bash
    http://192.168.1.XX:8096\
    ```
