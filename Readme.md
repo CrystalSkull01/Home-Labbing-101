@@ -238,8 +238,18 @@ There are few ways to do this.
 3. Reverse Proxy + Domain Name
 4. Cloud Tunnel
        
-- In this tutorial i will how do this with a **Cloud tunnel**
+- In this tutorial i will guide you how to do this with a **Cloud tunnel**
+
+# This is how your Network looks after implementing a Tunnel.
+
+
   
 ---
 
 # Cloudflare Tunnel
+
+- Cloud flare Tunnels acts as a secured connection between your proavate network and the global network.
+- Cloudflare tunnel builds a outbound connection eliminating the need to open ports or port forwarding.
+- In order to implement a Cloud tunnel you need to buy a Domain.
+- Cloudflare also allows you to buy Domains.
+- You can secure a cheap domain name if you buy a .uk domain.
