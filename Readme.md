@@ -224,5 +224,5 @@ How your server acts within your provate network.
 Up until now we have kept our server inside our private network. You can only access your jellyfin server
 if you are in the same network as the server. All your media is shared via LAN connection.
 
-![LAN](./Diagrams/LAN_network.jpg)
+![LAN](./Diagrams/LAN_network.png)
 
