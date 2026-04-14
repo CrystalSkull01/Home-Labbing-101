@@ -225,5 +225,6 @@ you're now a Proud owner of a Media Server !
 if you are in the same network as the server. All your media is shared via LAN connection.
 
  <img src="./Diagrams/LAN_network.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="60%" />
+ 
 
 
