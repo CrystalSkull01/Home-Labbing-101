@@ -271,7 +271,7 @@ Step 2: Create the Tunnel in Zero Trust
 
 Step 3: Install the "Connector" on your Server
 
-### A. Download and Install the Repository
+Download and Install the Repository
 ```bash
 # Add Cloudflare's GPG key
 sudo mkdir -p --mode=0755 /usr/share/keyrings
