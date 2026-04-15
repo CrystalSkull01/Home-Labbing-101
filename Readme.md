@@ -261,7 +261,7 @@ There are few ways to do this.
 
 # Cloudflare Tunnel (cloudflared) Docker Deployment
 
-This repository contains the configuration to run a Cloudflare Tunnel connector within a Docker container. Using Docker ensures a clean installation and easy updates for your home server gateway.
+This area contains the configuration to run a Cloudflare Tunnel connector within a Docker container. Using Docker ensures a clean installation and easy updates for your home server gateway.
 
 ## Prerequisites
 
