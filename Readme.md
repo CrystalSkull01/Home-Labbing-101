@@ -244,7 +244,7 @@ There are few ways to do this.
 # This is how your Network looks after implementing a Tunnel.
 
 <p align="center">
-  <img src="./Diagrams/Tunnel.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="72%" />
+  <img src="./Diagrams/Tunnel.png" alt="Corrected Jellyfin LAN Streaming Diagram" width="90%" />
 </p>
   
 ---
