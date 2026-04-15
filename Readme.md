@@ -327,8 +327,13 @@ docker compose up -d
 
 Verify Status
 ```bash
-docker ps
+sudo docker ps
 ```
+
+If its running your docker container should look like this
+
+![docker](./assets/docker_ps.png)
+
 
 
 
