@@ -257,43 +257,38 @@ There are few ways to do this.
 - Cloudflare also allows you to buy Domains.
 - You can secure a cheap domain name if you buy a .uk domain.
 
-  ## Instructions
+---
 
-Step 1: Prepare your Domain
-- Log in to Cloudflare.
-- Ensure your domain is active (Status: Active). If you just bought it, follow Cloudflare’s "Add Site" wizard to point your registrar's nameservers to Cloudflare.
+# Cloudflare Tunnel (cloudflared) Docker Deployment
 
-Step 2: Create the Tunnel in Zero Trust  
-- On the left sidebar of the Cloudflare dashboard, click Zero Trust.
-- In the sidebar, go to Networks > Tunnels (or go to Zero Trust > Networks > Tunnels).
-- Click Create a tunnel.
-- Choose Cloudflared as the connector and give your tunnel a name (e.g., "Home-Server").
+This repository contains the configuration to run a Cloudflare Tunnel connector within a Docker container. Using Docker ensures a clean installation and easy updates for your home server gateway.
 
-Step 3: Install the "Connector" on your Server
+## Prerequisites
 
-1. Download and Install the Repository
+- **Docker** and **Docker Compose** installed on Ubuntu.
+- A **Cloudflare account** with a domain pointed to Cloudflare DNS.
+- A **Tunnel Token** from the Cloudflare Dashboard.
+
+---
+
+##  Step 1: Obtain Your Tunnel Token
+
+1.  Log in to the [Cloudflare Zero Trust Dashboard](https://dash.cloudflare.com/).
+2.  Navigate to **Networks** > **Tunnels**.
+3.  Click **Create a Tunnel** (or select an existing one).
+4.  Choose **Cloudflared** as the connector.
+5.  Select **Docker** as the environment.
+6.  Copy the token string provided in the command (the long string of characters after `--token`).
+
+---
+
+## Step 2: Project Setup
+
+On your Ubuntu server, create a dedicated directory for the tunnel to keep your configuration organized.
+
 ```bash
-# Add Cloudflare's GPG key
-sudo mkdir -p --mode=0755 /usr/share/keyrings
-curl -fsSL [https://pkg.cloudflare.com/cloudflare-main.gpg](https://pkg.cloudflare.com/cloudflare-main.gpg) | sudo tee /usr/share/keyrings/cloudflare-main.gpg >/dev/null
-
-# Add the cloudflared repository
-echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] [https://pkg.cloudflare.com/cloudflared](https://pkg.cloudflare.com/cloudflared) any main" | sudo tee /etc/apt/sources.list.d/cloudflared.list
-
-# Update package lists and install cloudflared
-sudo apt-get update && sudo apt-get install cloudflared
-```
-
-2. Run the Tunnel as a Service
-```bash
-sudo cloudflared service install <YOUR_UNIQUE_TOKEN_HERE>
-```
-
-3. Verify Connection
-```bash
-sudo systemctl status cloudflared
-```
-
+mkdir -p ~/docker/cloudflared
+cd ~/docker/cloudflared
    
 
 
