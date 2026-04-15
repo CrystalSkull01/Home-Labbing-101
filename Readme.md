@@ -308,7 +308,7 @@ Create the docker-compose.yml file:
 nano docker-compose.yml
 ```
 
-Paste the following configuration:
+Paste the following configuration into the editor, then save and exit (Ctrl+O, Enter, Ctrl+X):
 ```YAML
 services:
   tunnel:
@@ -334,10 +334,36 @@ If its running your docker container should look like this
 
 ![docker](./assets/docker_ps.png)
 
+## Step 4: Add Jellyfin to your Tunnel
+
+First, configure your Cloudflare Tunnel to route traffic to your Jellyfin instance.
+
+1. Go to the [Cloudflare Zero Trust Dashboard](https://one.dash.cloudflare.com/).
+2. Navigate to **Networks** > **Tunnels**.
+3. Click on your active tunnel and select **Configure**.
+4. Go to the **Public Hostname** tab and click **Add a public hostname**.
+5. Fill out the routing details:
+   - **Subdomain:** e.g., `jellyfin`, `tv`, `media`
+   - **Domain:** Select your domain from the dropdown.
+   - **Service Type:** `HTTP`
+   - **URL:** Enter your Jellyfin server's local address:
+     - *If Jellyfin is in the same Docker network:* `jellyfin:8096`
+     - *If Jellyfin is installed directly on your Ubuntu host:* `192.168.1.X:8096` (your server's local IP).
+6. Click **Save hostname**.
 
 
+## Step 5: Configure Jellyfin for the Reverse Proxy
 
+Finally, configure Jellyfin to recognize that it is being accessed through a secure external tunnel.
 
+1. Log in to your Jellyfin web interface locally (e.g., `http://192.168.1.X:8096`).
+2. Go to **Dashboard** > **Networking**.
+3. Scroll down to the **Published Server URIs** setting.
+4. Enter your public URL exactly as you set it up (e.g., `https://jellyfin.yourdomain.com`).
+5. Ensure the **Allow remote connections to this server** box is checked.
+6. Click **Save** at the bottom of the page.
+
+🎉 **Done!** You can now open the Jellyfin app on any device, enter your secure `https://` URL, and stream your media from anywhere.
 
    
 
