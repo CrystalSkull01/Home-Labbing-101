@@ -271,7 +271,7 @@ Step 2: Create the Tunnel in Zero Trust
 
 Step 3: Install the "Connector" on your Server
 
-Download and Install the Repository
+1. Download and Install the Repository
 ```bash
 # Add Cloudflare's GPG key
 sudo mkdir -p --mode=0755 /usr/share/keyrings
@@ -283,6 +283,17 @@ echo "deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] [https://pkg.cloud
 # Update package lists and install cloudflared
 sudo apt-get update && sudo apt-get install cloudflared
 ```
+
+2. Run the Tunnel as a Service
+```bash
+sudo cloudflared service install <YOUR_UNIQUE_TOKEN_HERE>
+```
+
+3. Verify Connection
+```bash
+sudo systemctl status cloudflared
+```
+
    
 
 
